@@ -25,7 +25,7 @@
           <h1 class="text-center mb-4">Grocery bud</h1>
           <form data-action="submit->list#addItem" class="row align-items-center mb-3">
             <div class="col-9 offset-1">
-              <input type="text" class="form-control" placeholder="egs...">
+              <input data-list-target="input" type="text" class="form-control" placeholder="egs...">
             </div>
 
             <div class="col-1 d-flex justify-content-center">
@@ -35,7 +35,9 @@
         </div>
         <div class="row">
           <div class="col-8 offset-1">
-            <ul class="list-group list-group-flush"></ul>
+            <ul data-list-target="itemsList" class="list-group list-group-flush">
+
+            </ul>
           </div>
         </div>
       </div>
