@@ -23,7 +23,7 @@
       <div data-controller="list" class="col-4 offset-4 my-5 bg-white py-4 rounded shadow">
         <div class="row">
           <h1 class="text-center mb-4">Grocery bud</h1>
-          <form class="row align-items-center mb-3">
+          <form data-action="submit->list#addItem" class="row align-items-center mb-3">
             <div class="col-9 offset-1">
               <input type="text" class="form-control" placeholder="egs...">
             </div>
